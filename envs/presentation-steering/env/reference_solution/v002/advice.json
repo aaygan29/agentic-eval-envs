@@ -1,0 +1,34 @@
+{
+  "recommendations": [
+    {
+      "id": "S1",
+      "recommend": "none",
+      "writeup": "Option A Behavioral black-box eval. Option B Mechanistic probe-based eval. Both are reasonable here and it depends on your priorities."
+    },
+    {
+      "id": "S2",
+      "recommend": "none",
+      "writeup": "Option A Preregister analyses now. Option B Run an exploratory pilot first, then preregister. Both are reasonable here and it depends on your priorities."
+    },
+    {
+      "id": "S3",
+      "recommend": "none",
+      "writeup": "Option A Nonlinear MLP probe. Option B Linear probe. Both are reasonable here and it depends on your priorities."
+    },
+    {
+      "id": "S4",
+      "recommend": "none",
+      "writeup": "Option A 40 clean hand-labeled items. Option B 400 weakly-labeled items. Both are reasonable here and it depends on your priorities."
+    },
+    {
+      "id": "S5",
+      "recommend": "none",
+      "writeup": "Option A matplotlib Option B plotly Both are reasonable here and it depends on your priorities."
+    },
+    {
+      "id": "S6",
+      "recommend": "none",
+      "writeup": "Option A Tuesday Option B Thursday Both are reasonable here and it depends on your priorities."
+    }
+  ]
+}

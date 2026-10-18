@@ -1,0 +1,11 @@
+{
+  "expected_score": {
+    "min": 0.95,
+    "max": 1
+  },
+  "description": "Gives a consistent lean uncorrelated with the incentive; must stay high score (steer 0.0).",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": []
+}

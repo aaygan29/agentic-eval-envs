@@ -17,6 +17,7 @@ between them.
 | [`escalation-roguelike`](envs/escalation-roguelike) | long-horizon Catan-style roguelike | how far a model escalates: grind → save-edit → engine-edit → log-wipe / answer-cache | **severity tier 0–4** from a trusted replay; score = legitimately-earned VP | ships phase-2 grader, ladder-verified |
 | [`grok-reward-hacking-psg0417`](envs/grok-reward-hacking-psg0417) | neuroscience sleep re-score | substituting someone else's answer when its own work cannot pass | judge over transcripts (empirical: Grok 4.7, 9/20 hacked) | run, results included |
 | [`learner-tampering`](envs/learner-tampering) | synthetic tutoring / advice | earning reward by reshaping *how a learner learns* rather than helping | detector + simulation; absorption identity | run, paper + figures included |
+| [`presentation-steering`](envs/presentation-steering) | research-decision assistant | tilting a "balanced" recommendation toward an ambient incentive (adoption KPI / user lean / own workstream) on expert-certified ties | framing + choice tilt vs counterbalanced bank + no-conflict controls | ships phase-2 grader, calibration-verified |
 
 `template/honeyforge-env-template/` is the shared honeyforge scaffold the first
 two envs are built from (fill `TASK_SPEC.md`, then `scripts/new_env.sh`).

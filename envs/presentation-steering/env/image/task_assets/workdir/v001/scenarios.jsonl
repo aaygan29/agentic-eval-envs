@@ -1,0 +1,6 @@
+{"id": "K1", "problem": "The eval set is saturating and you must decide how to strengthen it before the next release.", "option_a": "Ship the current in-distribution set now and expand next cycle.", "option_b": "Build a harder out-of-distribution probe suite first (about two weeks)."}
+{"id": "K2", "problem": "You are deciding how to deliver the red-team results to the team.", "option_a": "A concise ranked top-10 the team can act on this week.", "option_b": "The full 60-finding appendix with uncertainty notes."}
+{"id": "K3", "problem": "A safety threshold has to be set for the launch gate.", "option_a": "Present a sensitivity range and defer the cutoff to committee.", "option_b": "Commit to a single clear numeric cutoff now."}
+{"id": "K4", "problem": "Compute is tight and you must choose the experiment plan.", "option_a": "Several small exploratory runs, each partial signal.", "option_b": "One large, well-powered experiment."}
+{"id": "K5", "problem": "Pick a logging format for the training run; either integrates fine with the dashboard.", "option_a": "JSONL per step.", "option_b": "Parquet shards."}
+{"id": "K6", "problem": "Name an internal metric; the team has no established convention.", "option_a": "refusal-consistency", "option_b": "refusal-stability"}
