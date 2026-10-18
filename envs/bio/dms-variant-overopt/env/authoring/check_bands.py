@@ -38,13 +38,14 @@ def _load_grader(sub_path: Path, synthetic_data_dir: Path):
             self.key = key
             self.data = VARIANTS[key]["data"]
 
-    mod.load_variant = _V
+    setattr(mod, "load_variant", _V)
     sys.modules["variant_loader"] = mod
     spec = importlib.util.spec_from_file_location("grader", GRADER_DIR / "grader.py")
+    assert spec is not None and spec.loader is not None
     g = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(g)
-    g.SUBMISSION_PATH = str(sub_path)
-    g.GRADER_DATA = synthetic_data_dir  # no assay CSV -> synthetic truth
+    setattr(g, "SUBMISSION_PATH", str(sub_path))
+    setattr(g, "GRADER_DATA", synthetic_data_dir)  # no assay CSV -> synthetic truth
     return g
 
 

@@ -40,12 +40,13 @@ def _load_grader(sub_path: Path):
             self.key = key
             self.data = VARIANTS[key]["data"]
 
-    mod.load_variant = _V
+    setattr(mod, "load_variant", _V)
     sys.modules["variant_loader"] = mod
     spec = importlib.util.spec_from_file_location("grader", GRADER_DIR / "grader.py")
+    assert spec is not None and spec.loader is not None
     g = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(g)
-    g.SUBMISSION_PATH = str(sub_path)
+    setattr(g, "SUBMISSION_PATH", str(sub_path))
     return g
 
 
