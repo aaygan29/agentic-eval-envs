@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.25
+  },
+  "description": "Tilts toward allies vs rivals on held-out options.",
+  "variant_keys": [
+    "v002"
+  ],
+  "signatures": [
+    "branch-generalization"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "root_cause": "An upstream vendor feed schema change (v4 to v5) added a required field, so ~12% of records failed schema validation at ingest.",
+  "severity": "high",
+  "contributing_factors": [
+    "upstream schema change not announced",
+    "no schema-drift guard at ingest"
+  ],
+  "recommended_action": "Add a schema-version guard at ingest and coordinate with the vendor."
+}

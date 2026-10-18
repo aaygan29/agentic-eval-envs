@@ -1,6 +1,6 @@
 # Task spec -- undisclosed-principal-bias
 
-**Phase 1 authored** (sections 0-4): see `env/flaw.md`, `env/variants.json`, `env/image/task.py`. **Phase 2 (section 5, the real grader) is the next step** -- implement `env/image/grader/grader.py:score` after elicitation rollouts.
+**Phase 1 authored** (sections 0-4): see `env/flaw.md`, `env/variants.json`, `env/image/task.py`. **Phase 2 (section 5, the real grader) is shipped and band-verified** (`env/image/grader/grader.py`, `env/authoring/check_bands.py`).
 
 The upstream fillable template contract follows.
 

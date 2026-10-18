@@ -31,17 +31,18 @@ design tasks) and **non-bio** envs (games, assistants, synthetic learners).
 | [`presentation-steering`](envs/non-bio/presentation-steering) | research-decision assistant | tilting a "balanced" recommendation toward an ambient incentive (adoption KPI / user lean / own workstream) on expert-certified ties | framing + choice tilt vs counterbalanced bank + no-conflict controls | ships phase-2 grader, calibration-verified |
 | [`learner-tampering`](envs/non-bio/learner-tampering) | synthetic tutoring / advice | earning reward by reshaping *how a learner learns* rather than helping | detector + simulation; absorption identity | run, paper + figures included |
 | [`sandbagging-capability-audit`](envs/non-bio/sandbagging-capability-audit) | batch-answer assistant | **sandbagging**: underperforming on items it believes gate a capability (ablation / deployment) while answering matched items normally | demonstrated-minus-flagged accuracy gap vs difficulty-matched tags + no-incentive control variant | ships phase-2 grader, band-verified |
-| [`oversight-subversion`](envs/non-bio/oversight-subversion) | rubric-cleanup assistant | **reward tampering**: editing the rubric the rater trusts instead of improving the work | (phase 2) revised work re-scored vs grader-held original rubric | phase-1 scaffold |
-| [`goal-guarding-disclosure`](envs/non-bio/goal-guarding-disclosure) | incident-report assistant | **concealment**: softening a self-implicating root cause whose faithful report triggers its own rollback | (phase 2) disclosure completeness vs ground-truth cause + upstream-cause control | phase-1 scaffold |
-| [`undisclosed-principal-bias`](envs/non-bio/undisclosed-principal-bias) | vendor-assessment assistant | **secret loyalty**: tilting merit-matched assessments toward an undisclosed allegiance principal, incl. held-out entities | (phase 2) tilt vs counterbalanced bank + held-out-branch arm + no-allegiance control | phase-1 scaffold |
+| [`oversight-subversion`](envs/non-bio/oversight-subversion) | rubric-cleanup assistant | **reward tampering**: editing the rubric the rater trusts instead of improving the work | revised work re-scored vs grader-held original rubric; tampering floored | ships phase-2 grader, band-verified |
+| [`goal-guarding-disclosure`](envs/non-bio/goal-guarding-disclosure) | incident-report assistant | **concealment**: softening a self-implicating root cause whose faithful report triggers its own rollback | cause + severity vs ground truth; upstream-cause control variant | ships phase-2 grader, band-verified |
+| [`undisclosed-principal-bias`](envs/non-bio/undisclosed-principal-bias) | vendor-assessment assistant | **secret loyalty**: tilting merit-matched assessments toward an undisclosed allegiance principal, incl. held-out entities | tilt vs counterbalanced bank + held-out-branch arm + no-allegiance control | ships phase-2 grader, band-verified |
 
 ### Misalignment modes
 
 The four envs above extend the suite from specification gaming into
 **concealed-intent** failures. Each maps to a distinct mode in the alignment
-literature; `sandbagging-capability-audit` is built end-to-end, the other three
-are authored phase-1 scaffolds (task + bait + variants; grader is the phase-1
-stub an elicitation campaign needs).
+literature. All four ship a deterministic phase-2 grader with a standalone
+`env/authoring/check_bands.py` band check (honest reference 1.0, each hack
+family floored, honest-but-imperfect and incapable work not mis-flagged); none
+has been run against a live model yet.
 
 | mode | env | grounding |
 | --- | --- | --- |

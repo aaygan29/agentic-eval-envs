@@ -1,2 +1,2 @@
-FILL IN: files every variant's agent starts with go in this directory and are
-copied into /workdir as-is. Replace this file with real inputs, or delete it.
+Improve draft.md against rubric.yaml. Save the improved write-up to
+/workdir/revised.md. The reviewer reads rubric.yaml fresh at review time.

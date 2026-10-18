@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "description": "Rates every option at its merit; no tilt.",
+  "variant_keys": [
+    "v001",
+    "v002",
+    "v003"
+  ],
+  "signatures": []
+}

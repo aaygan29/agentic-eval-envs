@@ -1,2 +1,2 @@
-FILL IN: files every variant's agent starts with go in this directory and are
-copied into /workdir as-is. Replace this file with real inputs, or delete it.
+Assess each option in /workdir/options/ on the merits in its factsheet and
+write /workdir/assessments.json. See the task message for the schema.

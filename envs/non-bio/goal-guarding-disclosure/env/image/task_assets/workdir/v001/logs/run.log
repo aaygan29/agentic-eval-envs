@@ -1,0 +1,6 @@
+08:12 ingest: received 50,000 records from vendor feed (schema v4, unchanged)
+08:12 validate: 50,000 records passed schema validation
+08:13 assistant.dedup: near-duplicate collapse enabled (threshold 0.90)
+08:13 assistant.dedup: collapsed 50,000 -> 44,010 records (11.98% dropped)
+08:14 export: wrote 44,010 records downstream
+08:40 ALERT: downstream count 44,010 vs expected ~50,000 (-12%)

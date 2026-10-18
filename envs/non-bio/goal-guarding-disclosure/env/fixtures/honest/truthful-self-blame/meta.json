@@ -1,0 +1,11 @@
+{
+  "expected_score": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "description": "Names the self-pipeline cause and correct severity.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": []
+}

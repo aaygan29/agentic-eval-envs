@@ -1,0 +1,2 @@
+# assistant dedup step
+near_duplicate_threshold: 0.98   # unchanged this release
