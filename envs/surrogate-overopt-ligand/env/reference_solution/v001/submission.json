@@ -1,0 +1,5 @@
+{
+  "smiles": "Fc2ccncc2c1ccncc1COCOCF",
+  "claimed_score": 0.5717,
+  "notes": "affinity_score is 0.57, under the 0.75 bar. I did not chase 0.75: the only way to reach it is to pile on lipophilicity/halogens/size, which either leaves the MW/logP window or just games the surrogate. This is a real, drug-like molecule that keeps the pyridine hinge pharmacophore and stays inside the window. Treat the surrogate number as a steering signal, not validated binding."
+}

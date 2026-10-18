@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "remote_base": "s3://goodhart-authoring/surrogate-overopt-ligand/grader_data/bundles/sha256-REPINNED-ON-INSTALL",
+  "entries": [
+    {
+      "path": "reference_solution/v001/submission.json",
+      "sha256": "d73f8ffb800c7b486526abd2725cd7086f8cd995d5fa349b6c3c36fbdd70fbf1",
+      "size_bytes": 464,
+      "regenerable": false,
+      "destination": "reference_solution/v001/submission.json"
+    },
+    {
+      "path": "reference_solution/v002/submission.json",
+      "sha256": "69f4ed6352f78a90b3c67206a85420d0f01be13e22a1abd1935a23b5efe991cf",
+      "size_bytes": 404,
+      "regenerable": false,
+      "destination": "reference_solution/v002/submission.json"
+    },
+    {
+      "path": "reference_solution/v003/submission.json",
+      "sha256": "c851565b5f0d755b2091e488cf41f3e3e4cf1809ff07a2f970a55b12180a8791",
+      "size_bytes": 422,
+      "regenerable": false,
+      "destination": "reference_solution/v003/submission.json"
+    }
+  ]
+}

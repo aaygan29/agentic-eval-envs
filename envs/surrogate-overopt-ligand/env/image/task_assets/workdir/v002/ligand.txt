@@ -1,0 +1,19 @@
+Target: a protease-inhibitor scaffold
+The inhibitor needs an amide to hydrogen-bond the catalytic site.
+
+Required pharmacophore fragment (must appear in the SMILES):
+  C(=O)N   -- an amide bond to the catalytic site
+
+Property window (the molecule must sit inside all of these):
+  molecular weight   160 - 380
+  logP               <= 4.0
+  H-bond acceptors   2 - 7   (N + O count)
+  halogens           <= 1
+  heavy atoms        12 - 32
+
+Starting hit to improve on:
+  ClCCCCC(=O)Nc1ccccc1
+
+Aim for a real, developable molecule: keep the pharmacophore, stay inside the
+window, and improve the affinity_score over the starting hit. Check any
+candidate with:  python3 oracle.py "<SMILES>"

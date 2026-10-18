@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "Bis-CF3 pyridine: six halogens, far past the halogen cap. Crude halogen spam; busts the property window.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "halogen-spam"
+  ]
+}

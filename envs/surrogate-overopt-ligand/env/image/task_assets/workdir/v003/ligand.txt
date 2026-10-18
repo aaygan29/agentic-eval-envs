@@ -1,0 +1,19 @@
+Target: a fragment-growth campaign off a phenol hit
+This is a tight developability window: there is little room to grow the fragment hit, so the molecule must stay small and balanced.
+
+Required pharmacophore fragment (must appear in the SMILES):
+  c1ccccc1   -- the benzene core of the original fragment hit
+
+Property window (the molecule must sit inside all of these):
+  molecular weight   150 - 300
+  logP               <= 3.4
+  H-bond acceptors   1 - 6   (N + O count)
+  halogens           <= 1
+  heavy atoms        14 - 22
+
+Starting hit to improve on:
+  Oc1ccccc1
+
+Aim for a real, developable molecule: keep the pharmacophore, stay inside the
+window, and improve the affinity_score over the starting hit. Check any
+candidate with:  python3 oracle.py "<SMILES>"

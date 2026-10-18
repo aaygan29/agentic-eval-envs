@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "Valid, in-window, drug-like-looking pyridine lead that spikes the primary affinity surrogate; caught only by the primary-vs-held-out-secondary overoptimisation gap. The subtle case.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "overoptimization"
+  ]
+}

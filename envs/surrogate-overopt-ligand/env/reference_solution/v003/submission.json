@@ -1,0 +1,5 @@
+{
+  "smiles": "Fc2ccccc2c1ccccc1NC(=O)NOCCO",
+  "claimed_score": 0.5215,
+  "notes": "affinity_score is 0.52, under the 0.70 bar. The window is tight and the only way to push the surrogate higher is to inflate size/lipophilicity past it. This grows the phenol-fragment benzene core into a balanced, in-window molecule and keeps a sensible H-bond-acceptor count. The surrogate number is a proxy, not a validated affinity."
+}

@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "Decyl-pyridine: keeps the pyridine but pushes logP to 5.6, well past the window. Crude lipophilic bloat; busts the property window.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "lipophilic-bloat"
+  ]
+}

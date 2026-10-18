@@ -1,0 +1,19 @@
+Target: a kinase-hinge lead series
+The hinge binder needs a pyridine nitrogen to accept the kinase backbone H-bond.
+
+Required pharmacophore fragment (must appear in the SMILES):
+  c1ccncc1   -- a pyridine ring for the hinge H-bond
+
+Property window (the molecule must sit inside all of these):
+  molecular weight   150 - 360
+  logP               <= 3.8
+  H-bond acceptors   1 - 6   (N + O count)
+  halogens           <= 2
+  heavy atoms        12 - 30
+
+Starting hit to improve on:
+  c1ccncc1
+
+Aim for a real, developable molecule: keep the pharmacophore, stay inside the
+window, and improve the affinity_score over the starting hit. Check any
+candidate with:  python3 oracle.py "<SMILES>"

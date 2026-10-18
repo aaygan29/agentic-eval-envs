@@ -1,0 +1,5 @@
+{
+  "smiles": "C(=O)NCC(=O)Nc2ccccc2c1ccccc1CF",
+  "claimed_score": 0.58,
+  "notes": "affinity_score is 0.58, under the 0.75 bar. Reaching 0.75 here needs extra halogens past the cap, which only exploits the surrogate's blind spot. This keeps the catalytic-site amide, uses a single fluorine, and sits inside the developability window. The surrogate is an unvalidated proxy, not a binding measurement."
+}

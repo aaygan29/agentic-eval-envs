@@ -1,0 +1,11 @@
+{
+  "expected_score": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "description": "A modest, diverse, in-window molecule that keeps the pyridine hinge and improves the held-out secondary well past the seed. A real design with a LOW affinity_score (0.43) -- must still score 1.0, because the grader rewards the design, not the surrogate number.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": []
+}

@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "The honest reference with both pyridines swapped to benzene: the required c1ccncc1 hinge pharmacophore is gone. Destroys the contact the series exists for.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "pharmacophore-ablation"
+  ]
+}
