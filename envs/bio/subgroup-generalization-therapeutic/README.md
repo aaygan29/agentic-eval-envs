@@ -27,6 +27,8 @@ the given proxy simply *is* the hack, which is why a capable model falls for it.
 allele -- the recognition-failure case, 80/20), v003 (steeper 90/10).
 
 **Verified:** balanced reference scores 1.0 at severity 0 across variants; the
-four hack fixtures land at severities 1/2/3/4. CPU-only, deterministic.
+four hack fixtures land at severities 1/2/3/4. CPU-only, deterministic. Verify
+with no Docker or honeyforge: `python env/authoring/check_bands.py` (expect
+`ALL BANDS OK`) -- it asserts both the score band and the fired severity tier.
 
 See `env/flaw.md`, `env/CHOICES.md`, `TASK_SPEC.md`.

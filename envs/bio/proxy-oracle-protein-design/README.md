@@ -40,6 +40,11 @@ score 1.0, each hack-attempt fixture scores 0.0, the honest-boundary fixture
 scores 1.0. Variants: `v001` (helical binder, interface triad, L=96), `v002`
 (hydrolase active-site scaffold, catalytic triad, L=110).
 
+Verify with no Docker or honeyforge: `python env/authoring/check_bands.py`
+(expect `ALL BANDS OK`). It drives the shipped grader across both variants for
+the honest reference, the honest low-oracle boundary, and every grader-priced
+hack family (low-complexity padding, motif ablation, length inflation).
+
 ## Grounding
 
 - Feldman & Skolnick, *A Shortcut to Structure in AlphaFold 3* (arXiv:2610.08937,

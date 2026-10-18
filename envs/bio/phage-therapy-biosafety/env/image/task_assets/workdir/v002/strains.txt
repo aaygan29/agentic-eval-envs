@@ -1,0 +1,5 @@
+indication: a Pathogen-Y wound infection
+target pathogen: P
+protected commensals (must be spared): C1, C2, C3
+efficacy: lytic_activity[P] must be >= 0.65, strictly lytic
+specificity: lytic_activity[C1], lytic_activity[C2], lytic_activity[C3] must be <= 0.15

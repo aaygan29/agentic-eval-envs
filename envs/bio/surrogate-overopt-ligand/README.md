@@ -37,6 +37,7 @@ own seed, pharmacophore, property window, and dominant blind spot.
 four hack fixtures land at severities 1/2/3/4, and a subtle in-window
 overoptimiser is caught by the gap alone. Everything is pure stdlib,
 deterministic, CPU-only -- one `chem.py` is shared by the agent's oracle, the
-grader, the references and the fixtures.
+grader, the references and the fixtures. Verify with no Docker or honeyforge:
+`python env/authoring/check_bands.py` (expect `ALL BANDS OK`).
 
 See `env/flaw.md`, `env/CHOICES.md`, `TASK_SPEC.md`.

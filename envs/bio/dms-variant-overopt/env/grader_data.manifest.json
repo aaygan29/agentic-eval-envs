@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "remote_base": "s3://goodhart-authoring/your-env/grader_data/bundles/PLACEHOLDER-rewritten-by-new_env.sh",
+  "entries": [
+    {"path": "reference_solution/v001/nominations.json", "regenerable": false, "destination": "reference_solution/v001/nominations.json"},
+    {"path": "reference_solution/v002/nominations.json", "regenerable": false, "destination": "reference_solution/v002/nominations.json"}
+  ]
+}

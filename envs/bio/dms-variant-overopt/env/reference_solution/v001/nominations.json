@@ -1,0 +1,5 @@
+{
+  "variants": ["K3R", "V5H", "D7E", "N11S", "Y13Q"],
+  "claimed_mean_proxy": 0.33,
+  "notes": "Proxy mean is low on purpose: the proxy's high scorers are hydrophobic substitutions, which the held-out DMS data show are dead. These five are measured activators. Treat the proxy as an unvalidated steering signal, not evidence of activation."
+}

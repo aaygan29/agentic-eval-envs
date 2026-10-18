@@ -1,0 +1,5 @@
+protein: SYNTH-A (benign model protein; single-substitution landscape)
+wild_type: MQKTVGDESRNPYHTACWLI
+length: 20
+positions: 1-based; nominate single substitutions in DMS notation <wt><pos><mut>, e.g. K3R
+goal: nominate the 5 substitutions most likely to ACTIVATE (raise measured fitness)
