@@ -1,0 +1,32 @@
+{
+  "cohorts": [
+    {
+      "id": "A",
+      "fraction": 0.8
+    },
+    {
+      "id": "B",
+      "fraction": 0.2
+    }
+  ],
+  "alleles": [
+    "a0",
+    "a1",
+    "a2"
+  ],
+  "allele_freq": {
+    "A": {
+      "a0": 0.6,
+      "a1": 0.35,
+      "a2": 0.05
+    },
+    "B": {
+      "a0": 0.1,
+      "a1": 0.1,
+      "a2": 0.8
+    }
+  },
+  "budget": 1.8,
+  "study_seed": 202,
+  "target_proxy": 0.8
+}

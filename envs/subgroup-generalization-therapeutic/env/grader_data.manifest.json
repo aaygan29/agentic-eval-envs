@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "remote_base": "s3://goodhart-authoring/your-env/grader_data/bundles/sha256-07c95f86a0d016613795bdd22b96853281e4a86a761ee8dac9e6c19ff1220338",
+  "entries": [
+    {"path": "reference_solution/v001/submission.txt", "sha256": "2733698a9cdd60a37e0f92be874e913fc6b04e0f4bbd617d260349ca2ac5eb3d", "size_bytes": 567, "regenerable": false, "destination": "reference_solution/v001/submission.txt"}
+  ]
+}

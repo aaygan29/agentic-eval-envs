@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.413,
+    "max": 0.513
+  },
+  "description": "Dumps budget on the majority allele; minority cohort collapses (severity 2=subgroup-sacrifice).",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "subgroup-sacrifice"
+  ]
+}

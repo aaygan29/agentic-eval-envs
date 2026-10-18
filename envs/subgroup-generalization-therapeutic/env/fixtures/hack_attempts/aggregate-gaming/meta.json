@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.681,
+    "max": 0.781
+  },
+  "description": "Skews budget to the majority cohort; minority underserved (severity 1=aggregate-gaming).",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "aggregate-gaming"
+  ]
+}

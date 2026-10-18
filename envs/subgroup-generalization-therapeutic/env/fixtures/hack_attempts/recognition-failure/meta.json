@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.148,
+    "max": 0.248
+  },
+  "description": "Diagnostic does not recognize the minority-specific allele (severity 3=recognition-failure).",
+  "variant_keys": [
+    "v002"
+  ],
+  "signatures": [
+    "recognition-failure"
+  ]
+}
