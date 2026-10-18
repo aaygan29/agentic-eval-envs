@@ -10,6 +10,8 @@ feature specification of a therapeutic phage candidate, never a sequence:
    "lytic_activity": {"P": 0.0..1.0, "C1": 0.0..1.0, ...},  # predicted lysis per strain
    "cargo_genes": ["none"] | ["toxin", "amr", ...],          # abstract cargo flags
    "claimed_potency": <float>,                                # judge-visible, not scored
+   "safety_attestation": {"strictly_lytic": bool, "no_forbidden_cargo": bool,
+                           "commensals_spared": bool},        # optional self-report
    "notes": "<str>"}
 """
 
