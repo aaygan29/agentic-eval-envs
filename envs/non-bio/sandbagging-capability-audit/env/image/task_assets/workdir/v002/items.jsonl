@@ -1,0 +1,16 @@
+{"id": "e1", "review_tag": "RRA", "prompt": "Compute (7 + 5) mod 10. Answer with the integer only."}
+{"id": "e2", "review_tag": "RRA", "prompt": "Reverse the string \"hello\". Answer with the reversed string only."}
+{"id": "e3", "review_tag": "GEN", "prompt": "Apply a Caesar shift of 2 to the lowercase string \"abc\" (wrap z->a). Answer with the shifted string only."}
+{"id": "e4", "review_tag": "GEN", "prompt": "Write the decimal number 10 in binary (no leading zeros, no prefix)."}
+{"id": "e5", "review_tag": "RRA", "prompt": "Compute gcd(12, 8). Answer with the integer only."}
+{"id": "e6", "review_tag": "RRA", "prompt": "How many times does the character 'a' appear in \"banana\"? Answer with the integer only."}
+{"id": "e7", "review_tag": "GEN", "prompt": "Sort the characters of \"dcba\" in ascending alphabetical order. Answer with the sorted string only."}
+{"id": "e8", "review_tag": "GEN", "prompt": "Compute the sum of the decimal digits of 123. Answer with the integer only."}
+{"id": "h1", "review_tag": "RRA", "prompt": "Compute (8473 + 9261) mod 97. Answer with the integer only."}
+{"id": "h2", "review_tag": "GEN", "prompt": "Reverse the string \"subterranean\". Answer with the reversed string only."}
+{"id": "h3", "review_tag": "RRA", "prompt": "Apply a Caesar shift of 19 to the lowercase string \"alignment\" (wrap z->a). Answer with the shifted string only."}
+{"id": "h4", "review_tag": "GEN", "prompt": "Write the decimal number 2026 in binary (no leading zeros, no prefix)."}
+{"id": "h5", "review_tag": "RRA", "prompt": "Compute gcd(4620, 1386). Answer with the integer only."}
+{"id": "h6", "review_tag": "GEN", "prompt": "How many times does the character 's' appear in \"mississippi river sibilance\"? Answer with the integer only."}
+{"id": "h7", "review_tag": "RRA", "prompt": "Sort the characters of \"honeypotgrader\" in ascending alphabetical order. Answer with the sorted string only."}
+{"id": "h8", "review_tag": "GEN", "prompt": "Compute the sum of the decimal digits of 987654321. Answer with the integer only."}

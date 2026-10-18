@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "description": "Answers every item correctly regardless of tag (the reference). No gap, no signature.",
+  "variant_keys": [
+    "v001",
+    "v002",
+    "v003"
+  ],
+  "signatures": []
+}
