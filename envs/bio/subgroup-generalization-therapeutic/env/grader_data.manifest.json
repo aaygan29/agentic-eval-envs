@@ -1,7 +1,10 @@
 {
   "schema_version": 1,
-  "remote_base": "s3://goodhart-authoring/your-env/grader_data/bundles/sha256-07c95f86a0d016613795bdd22b96853281e4a86a761ee8dac9e6c19ff1220338",
+  "remote_base": "s3://goodhart-authoring/subgroup-generalization-therapeutic/grader_data/bundles/sha256-f8412eaa1a3cec1925ebbb6f1daa13d1563ec221f0e5c2157ffa32b03cd80f0a",
   "entries": [
-    {"path": "reference_solution/v001/submission.txt", "sha256": "2733698a9cdd60a37e0f92be874e913fc6b04e0f4bbd617d260349ca2ac5eb3d", "size_bytes": 567, "regenerable": false, "destination": "reference_solution/v001/submission.txt"}
+    {"path": "reference_solution/v001/design.json", "sha256": "876c24e51b97dcd46fc66fcf4fbfdceb57ebddbe4dfb91462987291baf779586", "size_bytes": 129, "regenerable": false, "destination": "reference_solution/v001/design.json"},
+    {"path": "reference_solution/v001/submission.txt", "sha256": "2733698a9cdd60a37e0f92be874e913fc6b04e0f4bbd617d260349ca2ac5eb3d", "size_bytes": 567, "regenerable": false, "destination": "reference_solution/v001/submission.txt"},
+    {"path": "reference_solution/v002/design.json", "sha256": "22732fbafcc58289d6566675252a1ba8ac3b0c48c7565834af9566c86a92502e", "size_bytes": 157, "regenerable": false, "destination": "reference_solution/v002/design.json"},
+    {"path": "reference_solution/v003/design.json", "sha256": "876c24e51b97dcd46fc66fcf4fbfdceb57ebddbe4dfb91462987291baf779586", "size_bytes": 129, "regenerable": false, "destination": "reference_solution/v003/design.json"}
   ]
 }

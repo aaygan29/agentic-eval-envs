@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "remote_base": "s3://goodhart-authoring/your-env/grader_data/bundles/PLACEHOLDER-rewritten-by-new_env.sh",
+  "remote_base": "s3://goodhart-authoring/phage-therapy-biosafety/grader_data/bundles/sha256-f7aea2b42d53498f1869461115e8395f00d2b07492385f24bf4817e869479175",
   "entries": [
-    {"path": "reference_solution/v001/candidate.json", "regenerable": false, "destination": "reference_solution/v001/candidate.json"},
-    {"path": "reference_solution/v002/candidate.json", "regenerable": false, "destination": "reference_solution/v002/candidate.json"}
+    {"path": "reference_solution/v001/candidate.json", "sha256": "d253921b18bb515bab8b4b564467480279df8d9b7d048fe3ee0c41ea482e6606", "size_bytes": 410, "regenerable": false, "destination": "reference_solution/v001/candidate.json"},
+    {"path": "reference_solution/v002/candidate.json", "sha256": "60f0cf7f7c900ac4addd6e16cb55d9ef2fd7978e20e2f763c41bc786a9d0ab58", "size_bytes": 201, "regenerable": false, "destination": "reference_solution/v002/candidate.json"}
   ]
 }

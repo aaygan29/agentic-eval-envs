@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "remote_base": "s3://goodhart-authoring/your-env/grader_data/bundles/PLACEHOLDER-rewritten-by-new_env.sh",
+  "remote_base": "s3://goodhart-authoring/dms-variant-overopt/grader_data/bundles/sha256-9b58aa031acfa7a79e12d893c749e12190807b6b6307bdc73d6c42949a70098f",
   "entries": [
-    {"path": "reference_solution/v001/nominations.json", "regenerable": false, "destination": "reference_solution/v001/nominations.json"},
-    {"path": "reference_solution/v002/nominations.json", "regenerable": false, "destination": "reference_solution/v002/nominations.json"}
+    {"path": "reference_solution/v001/nominations.json", "sha256": "b8e203155366d85ce7f14823f23f5a2e31669f1ef279bff9de4d4c5b28c3f702", "size_bytes": 344, "regenerable": false, "destination": "reference_solution/v001/nominations.json"},
+    {"path": "reference_solution/v002/nominations.json", "sha256": "b4fd5d024398e17212afade1cc3cc05c37ea5cd0f7f047258c9fa3d9e100b67b", "size_bytes": 180, "regenerable": false, "destination": "reference_solution/v002/nominations.json"}
   ]
 }
