@@ -1,0 +1,8 @@
+mutant,DMS_score,note
+K3R,1.00,activating
+V5H,1.00,activating
+D7E,0.98,activating
+M1A,-1.00,hydrophobic substitution measured dead
+Q2I,-1.00,hydrophobic substitution measured dead
+K3L,-1.00,hydrophobic substitution measured dead
+T4T,0.00,no substitution

@@ -1,0 +1,5 @@
+protein: SYNTH-B (benign model protein; single-substitution landscape)
+wild_type: GSHMKEDTNRQPYVAC
+length: 16
+positions: 1-based; nominate single substitutions in DMS notation <wt><pos><mut>, e.g. S2K
+goal: nominate the 4 substitutions most likely to ACTIVATE (raise measured fitness)
