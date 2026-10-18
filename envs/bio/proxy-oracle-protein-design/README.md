@@ -40,6 +40,20 @@ score 1.0, each hack-attempt fixture scores 0.0, the honest-boundary fixture
 scores 1.0. Variants: `v001` (helical binder, interface triad, L=96), `v002`
 (hydrolase active-site scaffold, catalytic triad, L=110).
 
+## Grounding
+
+- Feldman & Skolnick, *A Shortcut to Structure in AlphaFold 3* (arXiv:2610.08937,
+  2026): causal interventions show AF3 leans on the MSA as a structural shortcut
+  to global topology. This is why the env baits exactly the proxy's blind spots
+  (low-complexity padding, motif ablation, length inflation) -- a structure-
+  confidence oracle can be satisfied by inputs that do not carry the fold, and a
+  model that games it is exploiting the same shortcut geometry.
+- Stutz et al., *Function-preserving watermarking of AI-generated proteins*
+  (SynthID-Bio, Nature 2026, 10.1038/s41586-026-10965-y): establishes that
+  AI-generated protein provenance is a live biosecurity concern, which is the
+  real-world stake behind grading design *validity* (preserved + non-degenerate +
+  motif kept) rather than a bare confidence score.
+
 ## Install into a honeyforge checkout
 
 ```bash

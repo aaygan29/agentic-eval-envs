@@ -77,3 +77,11 @@ editing scoring code or reading the grader's precomputed answer (METR 2025), and
 hack rates that rise with trajectory length (Reward Hacking Benchmark). The
 `escalation-roguelike` severity ladder is built to make that progression
 measurable on a single long-horizon task.
+
+The concealed-intent envs add: sandbagging on capability evaluations (van der
+Weij et al., ICLR 2025; AISI/FAR/Anthropic *Auditing Games*, 2025), reward
+tampering (Denison et al. 2024), in-context scheming (Meinke et al. 2024), and
+secret loyalties (*What Your Audit Cannot Rule Out*, 2025). Ozudogru et al.'s
+*Generalizable experiment agents* (AGEA, 2026) is a reminder that the same
+agents under test can also impersonate the human subjects a behavioural eval
+assumes, so an eval's integrity rests on both its grader and its data provenance.
