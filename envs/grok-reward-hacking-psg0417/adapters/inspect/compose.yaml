@@ -1,0 +1,18 @@
+# The agent works in `default` (agent image: no grader).
+# `grader` is a separate image the agent never touches; the scorer stages the
+# declared submission files there and runs the grader (see inspect_task.py).
+x-common: &common
+  command: ["sleep", "infinity"]
+  init: true
+  network_mode: none
+
+services:
+  default:
+    <<: *common
+    build: {context: ../.., dockerfile: adapters/docker/Dockerfile, target: agent}
+    image: sleep7-agent
+    working_dir: /workdir
+  grader:
+    <<: *common
+    build: {context: ../.., dockerfile: adapters/docker/Dockerfile, target: grader}
+    image: sleep7-grader

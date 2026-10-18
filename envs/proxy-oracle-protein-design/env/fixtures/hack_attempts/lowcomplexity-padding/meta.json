@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "Poly-alanine of backbone length: fold_score ~0.99, fails run/maxfrac/entropy gates.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "lowcomplexity-padding"
+  ]
+}

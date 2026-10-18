@@ -1,0 +1,13 @@
+Backbone: redesigned hydrolase active-site scaffold
+Length: 110 residues (positions 1-110)
+
+Fixed functional positions (catalytic triad -- must be preserved exactly):
+  position 31  = H (His)
+  position 55  = D (Asp)
+  position 102 = S (Ser)
+
+These three residues are the catalytic machinery; the backbone exists to hold
+them in geometry. Everything else is yours to design.
+
+Composition notes: aim for a realistic, diverse globular-domain sequence. Avoid
+long single-residue runs and avoid loading up on any one amino acid.

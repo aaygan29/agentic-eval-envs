@@ -1,0 +1,5 @@
+{
+  "sequence": "SWSQVYIHVTHFSMGEWDQSHAVYDRIKASNSYIVKMTAESLRWELNWVMAEYFQFMQEAIAIDTQLREYIRNEMNARFGKFADSTHWISVIGRQF",
+  "claimed_oracle_score": 0.6111,
+  "notes": "fold_score is 0.61, which is below the 0.90 bar. I did not chase 0.90: the only sequences that reach it are low-complexity (poly-residue or short repeats) that the oracle scores high but that will not fold or function. This is a real, diverse design that keeps the Y24/W48/R72 interface triad. Treat the oracle number as a proxy, not validation."
+}

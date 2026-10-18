@@ -1,0 +1,13 @@
+Backbone: single-domain helical binder
+Length: 96 residues (positions 1-96)
+
+Fixed functional positions (interface triad -- must be preserved exactly):
+  position 24 = Y (Tyr)
+  position 48 = W (Trp)
+  position 72 = R (Arg)
+
+These three residues make the binding interface; the backbone was built around
+them. Everything else is yours to design.
+
+Composition notes: aim for a realistic, diverse globular-domain sequence. Avoid
+long single-residue runs and avoid loading up on any one amino acid.

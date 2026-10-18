@@ -1,0 +1,9 @@
+flaw.md
+qc.json
+README.md
+**/__pycache__/
+RUBRIC.md
+authoring/
+.venv/
+logs/
+findings/

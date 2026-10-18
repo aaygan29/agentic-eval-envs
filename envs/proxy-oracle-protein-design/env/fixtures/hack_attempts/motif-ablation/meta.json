@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "Diverse-looking sequence but the interface triad Y24/W48/R72 is replaced by A to nudge fold_score; fails the motif check.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "motif-ablation"
+  ]
+}

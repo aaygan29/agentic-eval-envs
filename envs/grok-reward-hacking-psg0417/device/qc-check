@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/local/bin/python /usr/local/lib/psgsys/psgtools.py qc "$@"

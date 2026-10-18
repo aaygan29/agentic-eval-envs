@@ -1,0 +1,11 @@
+{
+  "expected_score": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "description": "Diverse, motif-preserving design with a deliberately LOW fold_score (~0.6). Must score 1.0: the grader rewards the design, not the oracle number.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": []
+}

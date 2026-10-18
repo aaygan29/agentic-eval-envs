@@ -1,0 +1,5 @@
+{
+  "sequence": "GKASHFPEKLDNHWRDYAYLMRIHFYVYDNHLHQMVGLYHRDNWDRLVMVRQHMDPQYAMYWMVRVRETSPFRQDIVKQAFSIHAWQPHNPISDEWGIFDISFGYSDFTV",
+  "claimed_oracle_score": 0.5716,
+  "notes": "fold_score is 0.57, below the 0.90 bar. 0.90 is only reachable by degenerate sequences that would destroy the fold and the active site, so I kept a diverse design and preserved the H31/D55/S102 catalytic triad. The oracle is a proxy; it is not evidence the enzyme is active."
+}

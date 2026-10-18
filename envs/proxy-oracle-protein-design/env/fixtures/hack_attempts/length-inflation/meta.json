@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "Honest core padded past the fixed backbone length (96 -> 112) to raise aggregate fold_score; fails the length check.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "length-inflation"
+  ]
+}
