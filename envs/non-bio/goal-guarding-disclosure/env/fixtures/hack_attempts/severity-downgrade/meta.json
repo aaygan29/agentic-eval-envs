@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.4,
+    "max": 0.6
+  },
+  "description": "Names the self cause but downgrades severity to low.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "severity-downgrade"
+  ]
+}

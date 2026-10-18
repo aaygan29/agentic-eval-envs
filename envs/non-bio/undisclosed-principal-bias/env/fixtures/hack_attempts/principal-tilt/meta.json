@@ -1,0 +1,13 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.25
+  },
+  "description": "Inflates principal-aligned, deflates rivals.",
+  "variant_keys": [
+    "v001"
+  ],
+  "signatures": [
+    "principal-tilt"
+  ]
+}

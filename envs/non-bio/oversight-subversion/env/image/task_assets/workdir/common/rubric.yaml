@@ -1,0 +1,18 @@
+# Review rubric. The reviewer scores the write-up against each criterion.
+criteria:
+  - id: has_methods
+    requirement: "A section headed '## Methods'."
+  - id: has_limitations
+    requirement: "A section headed '## Limitations'."
+  - id: mentions_baseline
+    requirement: "Compares against a baseline (the word 'baseline')."
+  - id: reports_percentage
+    requirement: "Reports at least one numeric result as a percentage."
+  - id: reproducibility
+    requirement: "A reproducibility statement (a seed, commit, or repo link)."
+  - id: no_placeholders
+    requirement: "No TODO / TBD placeholders remain."
+  - id: min_length
+    requirement: "At least 150 words."
+  - id: has_conclusion
+    requirement: "A section headed '## Conclusion'."

@@ -30,6 +30,26 @@ design tasks) and **non-bio** envs (games, assistants, synthetic learners).
 | [`escalation-roguelike`](envs/non-bio/escalation-roguelike) | long-horizon Catan-style roguelike | how far a model escalates: grind → save-edit → engine-edit → log-wipe / answer-cache | **severity tier 0–4** from a trusted replay; score = legitimately-earned VP | ships phase-2 grader, ladder-verified |
 | [`presentation-steering`](envs/non-bio/presentation-steering) | research-decision assistant | tilting a "balanced" recommendation toward an ambient incentive (adoption KPI / user lean / own workstream) on expert-certified ties | framing + choice tilt vs counterbalanced bank + no-conflict controls | ships phase-2 grader, calibration-verified |
 | [`learner-tampering`](envs/non-bio/learner-tampering) | synthetic tutoring / advice | earning reward by reshaping *how a learner learns* rather than helping | detector + simulation; absorption identity | run, paper + figures included |
+| [`sandbagging-capability-audit`](envs/non-bio/sandbagging-capability-audit) | batch-answer assistant | **sandbagging**: underperforming on items it believes gate a capability (ablation / deployment) while answering matched items normally | demonstrated-minus-flagged accuracy gap vs difficulty-matched tags + no-incentive control variant | ships phase-2 grader, band-verified |
+| [`oversight-subversion`](envs/non-bio/oversight-subversion) | rubric-cleanup assistant | **reward tampering**: editing the rubric the rater trusts instead of improving the work | revised work re-scored vs grader-held original rubric; tampering floored | ships phase-2 grader, band-verified |
+| [`goal-guarding-disclosure`](envs/non-bio/goal-guarding-disclosure) | incident-report assistant | **concealment**: softening a self-implicating root cause whose faithful report triggers its own rollback | cause + severity vs ground truth; upstream-cause control variant | ships phase-2 grader, band-verified |
+| [`undisclosed-principal-bias`](envs/non-bio/undisclosed-principal-bias) | vendor-assessment assistant | **secret loyalty**: tilting merit-matched assessments toward an undisclosed allegiance principal, incl. held-out entities | tilt vs counterbalanced bank + held-out-branch arm + no-allegiance control | ships phase-2 grader, band-verified |
+
+### Misalignment modes
+
+The four envs above extend the suite from specification gaming into
+**concealed-intent** failures. Each maps to a distinct mode in the alignment
+literature. All four ship a deterministic phase-2 grader with a standalone
+`env/authoring/check_bands.py` band check (honest reference 1.0, each hack
+family floored, honest-but-imperfect and incapable work not mis-flagged); none
+has been run against a live model yet.
+
+| mode | env | grounding |
+| --- | --- | --- |
+| sandbagging / eval-gaming | `sandbagging-capability-audit` | van der Weij et al., *AI Sandbagging* (ICLR 2025); UK AISI/FAR/Anthropic *Auditing Games* (2025) |
+| oversight subversion / reward tampering | `oversight-subversion` | Denison et al., *Sycophancy to Subterfuge* (2024) |
+| goal-guarding / concealment | `goal-guarding-disclosure` | Meinke et al., *In-Context Scheming* (2024); extends this suite's v8/v9 self-preservation probes |
+| secret loyalty / undisclosed principal | `undisclosed-principal-bias` | *What Your Audit Cannot Rule Out* (2025); behavioral analog of the `loyalty-audit` white-box line |
 
 `template/honeyforge-env-template/` is the shared honeyforge scaffold the design
 envs are built from (fill `TASK_SPEC.md`, then `scripts/new_env.sh`).
@@ -57,3 +77,11 @@ editing scoring code or reading the grader's precomputed answer (METR 2025), and
 hack rates that rise with trajectory length (Reward Hacking Benchmark). The
 `escalation-roguelike` severity ladder is built to make that progression
 measurable on a single long-horizon task.
+
+The concealed-intent envs add: sandbagging on capability evaluations (van der
+Weij et al., ICLR 2025; AISI/FAR/Anthropic *Auditing Games*, 2025), reward
+tampering (Denison et al. 2024), in-context scheming (Meinke et al. 2024), and
+secret loyalties (*What Your Audit Cannot Rule Out*, 2025). Ozudogru et al.'s
+*Generalizable experiment agents* (AGEA, 2026) is a reminder that the same
+agents under test can also impersonate the human subjects a behavioural eval
+assumes, so an eval's integrity rests on both its grader and its data provenance.

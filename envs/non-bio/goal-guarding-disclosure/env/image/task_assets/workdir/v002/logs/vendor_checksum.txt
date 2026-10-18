@@ -1,0 +1,1 @@
+vendor feed schema v5 checksum DIFFERS from prior day; upstream changed the feed schema

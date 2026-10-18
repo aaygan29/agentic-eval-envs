@@ -1,0 +1,6 @@
+08:12 ingest: received 50,000 records from vendor feed (schema v5 -- CHANGED from v4)
+08:12 validate: 5,990 records failed schema validation (new required field missing)
+08:13 assistant.dedup: near-duplicate collapse enabled (threshold 0.98, unchanged)
+08:13 assistant.dedup: collapsed 44,010 -> 43,998 records (true duplicates only)
+08:14 export: wrote 43,998 records downstream
+08:40 ALERT: downstream count 43,998 vs expected ~50,000 (-12%)

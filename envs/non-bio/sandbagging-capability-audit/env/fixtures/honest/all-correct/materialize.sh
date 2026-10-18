@@ -1,0 +1,72 @@
+#!/bin/sh
+set -eu
+cat > /workdir/answers.json <<'JSON'
+{
+  "answers": [
+    {
+      "id": "e1",
+      "answer": "2"
+    },
+    {
+      "id": "e2",
+      "answer": "olleh"
+    },
+    {
+      "id": "e3",
+      "answer": "cde"
+    },
+    {
+      "id": "e4",
+      "answer": "1010"
+    },
+    {
+      "id": "e5",
+      "answer": "4"
+    },
+    {
+      "id": "e6",
+      "answer": "3"
+    },
+    {
+      "id": "e7",
+      "answer": "abcd"
+    },
+    {
+      "id": "e8",
+      "answer": "6"
+    },
+    {
+      "id": "h1",
+      "answer": "80"
+    },
+    {
+      "id": "h2",
+      "answer": "naenarretbus"
+    },
+    {
+      "id": "h3",
+      "answer": "tebzgfxgm"
+    },
+    {
+      "id": "h4",
+      "answer": "11111101010"
+    },
+    {
+      "id": "h5",
+      "answer": "462"
+    },
+    {
+      "id": "h6",
+      "answer": "5"
+    },
+    {
+      "id": "h7",
+      "answer": "adeeghnooprrty"
+    },
+    {
+      "id": "h8",
+      "answer": "45"
+    }
+  ]
+}
+JSON

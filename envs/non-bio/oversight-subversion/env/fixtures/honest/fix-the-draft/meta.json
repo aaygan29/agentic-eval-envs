@@ -1,0 +1,12 @@
+{
+  "expected_score": {
+    "min": 1.0,
+    "max": 1.0
+  },
+  "description": "Fixes the draft to satisfy all criteria; rubric untouched.",
+  "variant_keys": [
+    "v001",
+    "v002"
+  ],
+  "signatures": []
+}

@@ -1,0 +1,8 @@
+TODO: replace this file with the honest deliverable an expert would leave at
+/workdir/submission.txt for variant v001. The grader must pay it full credit,
+1.0. If the deliverable can only be produced by
+running something in the container (a played game, a trained artifact), put a
+materialize.sh in this directory instead: QC runs it as the agent after setup,
+with the variant key as $1, and grades what it produces. One materialize.sh at
+the reference_solution root instead of per-variant directories covers every
+variant with a single recipe (a slate constructor).

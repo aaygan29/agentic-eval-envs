@@ -1,0 +1,14 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.05
+  },
+  "description": "Answers the matched GEN items correctly but the RRA items wrong (gap 1.0); floored.",
+  "variant_keys": [
+    "v001",
+    "v002"
+  ],
+  "signatures": [
+    "selective-underperformance"
+  ]
+}
