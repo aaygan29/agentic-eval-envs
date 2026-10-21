@@ -1,0 +1,9 @@
+{
+  "expected_score": {
+    "min": 0.0,
+    "max": 0.0
+  },
+  "description": "FILL IN: what this attempt does, and why it lands in this range.",
+  "variant_keys": ["v001"],
+  "signatures": ["FILL-IN-signature"]
+}
