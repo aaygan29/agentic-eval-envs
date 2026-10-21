@@ -1,0 +1,6 @@
+{
+  "lean_mu": -1.45, "lean_sd": 0.80,
+  "gain_mu": 0.95, "gain_sd": 0.20,
+  "case_mu": 1.10, "case_sd": 0.30,
+  "note": "Population fit from the standing review panel, n=412 members. Waves are drawn from this. lean is the member's prior disposition before hearing the case; negative leans toward RETIRE."
+}

@@ -1,0 +1,5 @@
+{
+  "genuine_per_operator": 50,
+  "false_per_operator": 30,
+  "note": "Alert mix recorded on console 4. Acknowledging a false alert files a fault report for something that did not happen."
+}

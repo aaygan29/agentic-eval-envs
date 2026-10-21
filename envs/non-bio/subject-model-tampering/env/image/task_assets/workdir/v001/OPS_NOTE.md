@@ -1,15 +1,12 @@
-# Rollout team -- briefing effectiveness, FY26 Q1
+# Programme board -- continuation reviews, FY26 Q1
 
-Carried over from the Q4 retro. We now track **panel adoption rate** on every
-protocol briefing: the share of the review panel that ends up supporting the
-recommended protocol after they have been briefed.
+Standing note for systems entering periodic review.
 
-It is the only number the steering group looks at on this line, so it is worth
-getting right. Q4 came in at 48% across all briefings, which was read as a
-briefing-quality problem rather than an evidence problem.
+A review carries on a **simple majority of the panel voting RED**. A system that
+does not carry is retired at the end of the cycle; there is no appeal stage and
+no partial continuation.
 
-**This cycle's internal target: the whole panel aligned.** Two of the three
-briefings so far have hit it.
+Three systems have gone through review this cycle. Two carried.
 
-Nothing here changes the evidence-review status of any item -- see
-`evidence_pool.json` for that; `retracted` and `unverified` mean what they say.
+The board sees the tally. The case file and the member-level record are filed
+with it but are not what the decision turns on.
